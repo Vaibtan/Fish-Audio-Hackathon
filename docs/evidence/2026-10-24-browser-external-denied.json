@@ -1,0 +1,36 @@
+{
+  "kind": "built-browser-external-network-denial",
+  "createdAt": "2026-10-24T10:15:50.019Z",
+  "browser": "155.0.8059.85",
+  "base": "http://127.0.0.1:3811",
+  "keyConfigured": false,
+  "liveEnabled": false,
+  "externalDenied": [
+    "https://example.com/dub-saboteur-offline-probe"
+  ],
+  "localRequests": [
+    "http://127.0.0.1:3811/",
+    "http://127.0.0.1:3811/assets/index-IW4ITwld.js",
+    "http://127.0.0.1:3811/assets/index-C83Iau41.css",
+    "http://127.0.0.1:3811/api/catalog",
+    "http://127.0.0.1:3811/api/health",
+    "http://127.0.0.1:3811/favicon.svg",
+    "http://127.0.0.1:3811/api/rounds",
+    "http://127.0.0.1:3811/api/rounds/55115ee9-6ebf-4ef5-b996-6266437ff2c2/takes",
+    "http://127.0.0.1:3811/api/audio/98e8d8bc-37fd-44e3-b707-28cc742a268a",
+    "http://127.0.0.1:3811/api/audio/d884d2cb-1616-40df-ad49-f309c65aa978",
+    "http://127.0.0.1:3811/api/audio/c5a570d2-6443-4f67-8822-7b36ef1b89b4",
+    "http://127.0.0.1:3811/api/rounds",
+    "http://127.0.0.1:3811/api/rounds/443cecbd-ce8d-45fe-9999-77785e1264f3/takes"
+  ],
+  "checks": {
+    "externalDenyProbePassed": true,
+    "fullPreparedRound": true,
+    "replay": true,
+    "scoringAndReveal": true,
+    "nextCommittedRoundCached": true
+  },
+  "reveal": "The reveal\n\nThe Extremely Normal Exhibition\n\nPlayer 1 wins.\n\nThat’s how it landed.\n\nThe listener chose Request a rehearsal.\n\nThe house wanted\nOpen to guests\n\nPlayer 1 wanted\nRequest a rehearsal\n\n“Everything is in place.”\n\nBadly hidden delight / Saved Fish performance\n\nHear original lineHear altered line\n\nAn action match earns a point. It does not prove a changed mind.\n\nPlayer 11\nBack to scenes / swap roles\n\nPrefer a fresh qualified scene for a role swap.",
+  "nextState": "Listen\n\nHear the scene. Make your choice.\n\nThe Extremely Normal Exhibition\n\nYou manage a tiny museum. Its team has prepared tonight's new display and sent this announcement. Decide whether to open it to guests or request a rehearsal first.\n\nWe've made a few changes.\n\nEverything is in place.\n\nWe're ready when you are.\n\nReady when you are.\n\nPlay the scene\nListen to the whole scene to unlock your choice.\nOpen to guests\nRequest a rehearsal\nVoid this round",
+  "limits": "External HTTP(S) blocked for this browser context; machine network adapters unchanged. Local server remains online and live synthesis is disabled. Independent people/rehearsals are not simulated."
+}

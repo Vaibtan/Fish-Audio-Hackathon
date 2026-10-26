@@ -1,0 +1,6 @@
+[
+  {"id":"hidden_delight","revision":1,"label":"Badly hidden delight","instruction":"Try to sound professionally composed. Let a small trace of inappropriate delight escape near the final important word, then recover. Keep it subtle and keep the words exact."},
+  {"id":"thin_confidence","revision":1,"label":"Thin confidence","instruction":"Begin with ordinary confidence. Let one brief hesitation or caught breath reveal that maintaining it takes effort, then finish as though nothing happened. Keep the words exact and avoid melodrama."},
+  {"id":"ordinary_tuesday","revision":1,"label":"An ordinary Tuesday","instruction":"Give a familiar, routine update as someone who has done this many times. Use grounded, matter-of-fact pacing. Avoid mystery, sarcasm, exaggerated warmth and added words."},
+  {"id":"quiet_conviction","revision":1,"label":"Quiet conviction","instruction":"Use sincere warmth and steady conviction. Address one person naturally and directly. Be reassuring without overselling it. Keep the performance restrained and the words exact."}
+]

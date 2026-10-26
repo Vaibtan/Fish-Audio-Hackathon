@@ -1,0 +1,26 @@
+{
+  "id": "e4fb5a77-86c0-4841-a4b2-9603c1a7fc4b",
+  "sceneId": "normal_exhibition",
+  "sceneRevision": 1,
+  "lineId": "line_3",
+  "directionId": "thin_confidence",
+  "directionRevision": 1,
+  "voice": "c70cfb98867a4bfb9ae20d2401257b92",
+  "requestedModel": "drama-3",
+  "renderSignature": "3365a018e6f18c61240c7a59178215255fec11c7cb0065c19c290b694641f5d6",
+  "audioUrl": "/api/audio/e4fb5a77-86c0-4841-a4b2-9603c1a7fc4b",
+  "origin": "fish-api",
+  "review": "approved",
+  "audioHash": "a3c8a870c301a8370ce4f01fc9817deeae8a8d4e929297a58b1e2424e34abc86",
+  "createdAt": "2026-10-24T10:03:58.874Z",
+  "request": {
+    "url": "https://api.fish.audio/v1/tts",
+    "model": "drama-3",
+    "body": {
+      "text": "[Begin with ordinary confidence. Let one brief hesitation or caught breath reveal that maintaining it takes effort, then finish as though nothing happened. Keep the words exact and avoid melodrama.] We're ready when you are.",
+      "reference_id": "c70cfb98867a4bfb9ae20d2401257b92",
+      "format": "mp3",
+      "latency": "normal"
+    }
+  }
+}

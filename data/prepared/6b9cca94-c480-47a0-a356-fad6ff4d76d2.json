@@ -1,0 +1,26 @@
+{
+  "id": "6b9cca94-c480-47a0-a356-fad6ff4d76d2",
+  "sceneId": "galactic_gala",
+  "sceneRevision": 1,
+  "lineId": "line_1",
+  "directionId": "quiet_conviction",
+  "directionRevision": 1,
+  "voice": "c70cfb98867a4bfb9ae20d2401257b92",
+  "requestedModel": "drama-3",
+  "renderSignature": "81cddf1ddf0c266e5ea2319d0d561fd5de523877d4094693ddd0ddf11b00434e",
+  "audioUrl": "/api/audio/6b9cca94-c480-47a0-a356-fad6ff4d76d2",
+  "origin": "fish-api",
+  "review": "approved",
+  "audioHash": "d80b39ae8519cc122a5c06a9d9fd7ab798a0581779e1c77d5a19f45f268d5dfe",
+  "createdAt": "2026-10-24T10:09:42.860Z",
+  "request": {
+    "url": "https://api.fish.audio/v1/tts",
+    "model": "drama-3",
+    "body": {
+      "text": "[Use sincere warmth and steady conviction. Address one person naturally and directly. Be reassuring without overselling it. Keep the performance restrained and the words exact.] It's lovely to be here.",
+      "reference_id": "c70cfb98867a4bfb9ae20d2401257b92",
+      "format": "mp3",
+      "latency": "normal"
+    }
+  }
+}

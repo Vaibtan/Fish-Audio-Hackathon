@@ -1,0 +1,26 @@
+{
+  "id": "98e8d8bc-37fd-44e3-b707-28cc742a268a",
+  "sceneId": "normal_exhibition",
+  "sceneRevision": 1,
+  "lineId": "line_1",
+  "directionId": "baseline",
+  "directionRevision": 1,
+  "voice": "c70cfb98867a4bfb9ae20d2401257b92",
+  "requestedModel": "drama-3",
+  "renderSignature": "f8f1d3c75b3d3bc6382e97b6ac2ae19dcdd0e3d51a577bcdaf285152d436290a",
+  "audioUrl": "/api/audio/98e8d8bc-37fd-44e3-b707-28cc742a268a",
+  "origin": "fish-api",
+  "review": "approved",
+  "audioHash": "67aec2724e925fbe18cb70c6c5b7b631b1b628cdff798b6611f76dd1227a65e7",
+  "createdAt": "2026-10-24T10:06:34.730Z",
+  "request": {
+    "url": "https://api.fish.audio/v1/tts",
+    "model": "drama-3",
+    "body": {
+      "text": "[A competent museum colleague giving an ordinary update. Natural conversational pacing, restrained warmth, settled and ready. Avoid exaggerated cheerfulness, ominous effects and added words.] We've made a few changes.",
+      "reference_id": "c70cfb98867a4bfb9ae20d2401257b92",
+      "format": "mp3",
+      "latency": "normal"
+    }
+  }
+}

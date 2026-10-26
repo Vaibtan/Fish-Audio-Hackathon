@@ -1,0 +1,14 @@
+{
+  "reviewer": "Host (user)",
+  "confirmedAt": "2026-10-24T09:44:46.8262487+00:00",
+  "source": "Explicit user confirmation after original line 1, replacement hidden_delight take, and the full scene using the replacement with 150 ms gaps",
+  "statement": "Approve the new take and its assembled scene",
+  "takes": [
+    {
+      "takeId": "47cde982-3ce0-457d-816f-c33e2b073f10",
+      "audioHash": "6ba9667600c7dd3dcc546d1a49ec58424d976392094fbdc5247da78eaae3080c",
+      "renderSignature": "386c30f9f60677c9c8e040c17fd2153b957269a6648e1f20235193d34ce7e4df",
+      "decision": "approved"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "createdAt": "2026-10-24T18:07:14.299Z",
+  "base": "http://127.0.0.1:3811",
+  "checks": {
+    "keyboardSoundAndNames": true,
+    "preparedRoundPrivatePreviewFirstCandidate": true,
+    "listenerPrivacyStopReplayDoubleVoteComparison": true,
+    "allThreePreparedScenes": true,
+    "reducedMotion": true,
+    "noExternalRequestsOrBrowserErrors": true
+  },
+  "layouts": [
+    {
+      "screen": "setup",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "fonts": true
+    },
+    {
+      "screen": "setup",
+      "width": 900,
+      "scrollWidth": 900,
+      "fonts": true
+    },
+    {
+      "screen": "setup",
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": true
+    },
+    {
+      "screen": "setup",
+      "width": 320,
+      "scrollWidth": 320,
+      "fonts": true
+    },
+    {
+      "screen": "protection",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "fonts": true
+    },
+    {
+      "screen": "protection",
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": true
+    },
+    {
+      "screen": "desk-empty",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "fonts": true
+    },
+    {
+      "screen": "desk-empty",
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": true
+    },
+    {
+      "screen": "desk-selected",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "fonts": true
+    },
+    {
+      "screen": "desk-selected",
+      "width": 900,
+      "scrollWidth": 900,
+      "fonts": true
+    },
+    {
+      "screen": "desk-selected",
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": true
+    },
+    {
+      "screen": "desk-selected",
+      "width": 320,
+      "scrollWidth": 320,
+      "fonts": true
+    },
+    {
+      "screen": "handoff",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "fonts": true
+    },
+    {
+      "screen": "handoff",
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": true
+    },
+    {
+      "screen": "listener",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "fonts": true
+    },
+    {
+      "screen": "listener",
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": true
+    },
+    {
+      "screen": "listener",
+      "width": 320,
+      "scrollWidth": 320,
+      "fonts": true
+    },
+    {
+      "screen": "reveal",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "fonts": true
+    },
+    {
+      "screen": "reveal",
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": true
+    },
+    {
+      "screen": "reveal",
+      "width": 320,
+      "scrollWidth": 320,
+      "fonts": true
+    },
+    {
+      "screen": "exhibition-listener",
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": true
+    },
+    {
+      "screen": "gala-listener",
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": true
+    },
+    {
+      "screen": "long-name",
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": true
+    },
+    {
+      "screen": "long-name",
+      "width": 320,
+      "scrollWidth": 320,
+      "fonts": true
+    }
+  ],
+  "screenshots": [
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/keyboard-focus-1440.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/setup-1440.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/setup-900.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/setup-390.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/setup-320.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/protection-1440.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/protection-390.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/desk-empty-1440.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/desk-empty-390.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/desk-selected-1440.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/desk-selected-900.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/desk-selected-390.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/desk-selected-320.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/handoff-1440.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/handoff-390.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/listener-1440.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/listener-390.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/listener-320.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/reveal-1440.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/reveal-390.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/reveal-320.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/exhibition-listener-390.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/gala-listener-390.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/long-name-390.png",
+    "D:/SWE_DEV_NEW/Fish-Audio-Hackathon/.impeccable/review/long-name-320.png"
+  ],
+  "errors": [],
+  "takeSources": [
+    "prepared",
+    "prepared",
+    "prepared",
+    "prepared"
+  ]
+}

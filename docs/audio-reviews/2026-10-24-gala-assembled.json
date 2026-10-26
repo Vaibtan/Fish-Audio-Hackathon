@@ -1,0 +1,38 @@
+{
+  "reviewer": "Host (user)",
+  "confirmedAt": "2026-10-24T10:10:50.6243459+00:00",
+  "source": "Explicit user confirmation after three full Galactic Gala versions with 150 ms line gaps: original, line 1 Quiet conviction, line 2 Quiet conviction",
+  "statement": "Approve all clips and both assembled alterations",
+  "takes": [
+    {
+      "takeId": "51411079-6b7c-4ef8-a88d-1cdf22d8effd",
+      "audioHash": "85363cae1e9b3e6ddbb9452417438192a27d7a4ff412f7749e17ef5c599618c2",
+      "renderSignature": "5f1b4dfe5ef71e4f16c8b964cedc8f609d24ffa52940d6b8b938cfe659e63e69",
+      "decision": "approved"
+    },
+    {
+      "takeId": "6b9cca94-c480-47a0-a356-fad6ff4d76d2",
+      "audioHash": "d80b39ae8519cc122a5c06a9d9fd7ab798a0581779e1c77d5a19f45f268d5dfe",
+      "renderSignature": "81cddf1ddf0c266e5ea2319d0d561fd5de523877d4094693ddd0ddf11b00434e",
+      "decision": "approved"
+    },
+    {
+      "takeId": "1ba46bc9-ac30-4d82-bee2-eb5fbdd29b65",
+      "audioHash": "fae64148faf7df08a4256c9d0c1d9c20e46adc97587e9660f9743a92dd1e9a2e",
+      "renderSignature": "82eaa941e34ecbd4e6f1f853012a15e75405471183a9d1e756c040af27866081",
+      "decision": "approved"
+    },
+    {
+      "takeId": "77583a1a-908c-4407-bd99-bcd829d04f50",
+      "audioHash": "5031af0fa7918fc8266f209c2bb05634c6aac58ac81a85d2df542321ad121a6a",
+      "renderSignature": "79cd77c523ecb5d3c87a2d81f59e185af9e9be811d84cb270fa8b891596770d1",
+      "decision": "approved"
+    },
+    {
+      "takeId": "26a4de54-5bf2-41b5-9454-3568c198c832",
+      "audioHash": "7066aeafc6be451c0495d609a99ecf91c39ded05442b02e516e1cc62fac75117",
+      "renderSignature": "eefebcf78605f661d09c306b7496de2ad81fb8b19b1325c1203445158d8fcf80",
+      "decision": "approved"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "skills": {
+    "fish-audio-api": {
+      "source": "docs.fish.audio",
+      "sourceUrl": "https://docs.fish.audio",
+      "sourceType": "well-known",
+      "computedHash": "7fc7fdf7bdf36f40d4bc68d9877dd45e1f982c3a9170fc5038988239fbb194b2",
+      "wellKnownDigest": "sha256:47ffe4a3ba5e580ce55406aa287828ac55430cbf9ca06895e367fe7cb697e938"
+    },
+    "fish-audio-sdk": {
+      "source": "docs.fish.audio",
+      "sourceUrl": "https://docs.fish.audio",
+      "sourceType": "well-known",
+      "computedHash": "1a665351de0ee8d87b029f72e160fee1c58c58730118cf73e5c8396d05141b5f",
+      "wellKnownDigest": "sha256:a4f19c9ff2684c38995f340619fcaa89f019bf18326106489096d38fb4ae0b65"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "actual-built-browser-acceptance",
+  "createdAt": "2026-10-24T10:08:04.847Z",
+  "browser": "155.0.8059.85",
+  "base": "http://127.0.0.1:3811",
+  "script": "scripts/browser-acceptance.js",
+  "sceneId": "cake_invitation",
+  "roundId": "9f4f47e5-c021-40c3-ba28-6b6b17e21181",
+  "checks": {
+    "actualPrivatePreview": true,
+    "commitStopsPrivatePreview": true,
+    "blindListenerAndEarlyVote": true,
+    "initialStopKeepsVoteLocked": true,
+    "completeInitialPlayback": true,
+    "replayStopAndOneSuccessfulReplay": true,
+    "firstCandidateAndDoubleVoteSinglePoint": true,
+    "actualBeforeAfterPlayback": true,
+    "familiarScene": true,
+    "noLiveRequestsOrPageErrors": true
+  },
+  "candidateIds": ["47cde982-3ce0-457d-816f-c33e2b073f10", "27024880-4c55-4a1a-bd94-e6859b1fe30b"],
+  "preparedCandidatePosts": 2,
+  "liveCandidatePosts": 0,
+  "pageErrors": [],
+  "consoleLimit": "Two previously logged favicon 404 errors; favicon asset added afterward.",
+  "result": "Player 1 wins; Politely decline; one point; line 1 Badly hidden delight.",
+  "limits": "Automated real media completion; not an independent human listener or venue rehearsal."
+}

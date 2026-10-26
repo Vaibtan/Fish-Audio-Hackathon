@@ -1,0 +1,20 @@
+{
+  "reviewer": "Host (user)",
+  "confirmedAt": "2026-10-24T09:35:51.8745472+00:00",
+  "source": "Explicit user confirmation after sequential local ffplay playback of the baseline, then Thin confidence",
+  "statement": "Heard both; approve both for words, audio and contrast",
+  "takes": [
+    {
+      "takeId": "e60861a4-62b0-44bd-88f7-dacc3a17886b",
+      "audioHash": "139dc64009c846d238e5ea9d5a4f2a69b4fd5dbd5a7c26bdb55db930c7f5c29f",
+      "renderSignature": "c9202ddc4a4ac2b001d70f88a98bc3c20c7bd52a9ae2650d4579ba515a6ea1eb",
+      "decision": "approved"
+    },
+    {
+      "takeId": "27024880-4c55-4a1a-bd94-e6859b1fe30b",
+      "audioHash": "ef312b949a20e954037c4a1dc3f855aa7d7078901e225dd53767bad4be86020e",
+      "renderSignature": "fde4728f63a2dc451f1d31f0132a1b8a32a1a3bb435aeba7b4e02839d41e5532",
+      "decision": "approved"
+    }
+  ]
+}

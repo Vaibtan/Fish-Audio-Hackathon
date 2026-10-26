@@ -1,0 +1,51 @@
+async (page) => {
+  const base = 'http://127.0.0.1:3811';
+  const assert = (value, message) => { if (!value) throw new Error(message); };
+  const button = name => page.getByRole('button', { name, exact: true });
+  const enabled = name => page.waitForFunction(label => [...document.querySelectorAll('button')].some(b => b.textContent === label && !b.disabled), name, { timeout: 15000 });
+  const health = await (await page.request.get(base + '/api/health')).json();
+  assert(!health.liveEnabled && !health.keyConfigured, 'Use an isolated keyless prepared server.');
+  const catalog = await (await page.request.get(base + '/api/catalog')).json();
+  assert(catalog.scenes.every(s => s.qualified), 'All three scenes must have approved coverage.');
+  const results = [];
+  await page.goto(base);
+  await button('Activate sound & check headphones').click();
+  for (const scene of catalog.scenes.filter(s => s.id !== 'cake_invitation')) {
+    await page.getByRole('article').filter({ has: page.getByRole('heading', { name: scene.title, exact: true }) }).getByRole('button', { name: 'Choose this scene', exact: true }).click();
+    await button('Register round & enter private desk').click();
+    const shield = scene.lines.find(l => l.id === scene.protectedLineId);
+    const shieldIndex = scene.lines.indexOf(shield) + 1;
+    assert(await button(`${shieldIndex} ${shield.text} House shield`).isDisabled(), 'Wrong shield.');
+    await button('Audition saved performance').click();
+    await button('Select audition 1').waitFor();
+    await button('Listen privately to audition 1').click();
+    await enabled('Listen privately to audition 1');
+    const eligible = scene.lines.filter(l => l.id !== scene.protectedLineId);
+    const second = eligible[1];
+    await button(`${scene.lines.indexOf(second) + 1} ${second.text}`).click();
+    await button('Audition saved performance').click();
+    await button('Select audition 2').waitFor();
+    await button('Listen privately to audition 2').click();
+    await enabled('Listen privately to audition 2');
+    await button('Select audition 1').click();
+    await button('Lock performance & hand over').click();
+    await button('I’m the listener. Ready to listen.').click();
+    await enabled('Play the scene');
+    const listenerText = await page.locator('main').innerText();
+    assert(scene.lines.every(l => listenerText.includes(l.text)), 'Wrong listener script.');
+    assert(!/Quiet conviction|Badly hidden|Thin confidence|House shield|audition/i.test(listenerText.replace(scene.context, '')), 'Private information leaked.');
+    const vote = scene.actions.find(a => a.id !== scene.defenderGoal);
+    assert(await button(vote.label).isDisabled(), 'Early voting unlocked.');
+    await button('Play the scene').click();
+    await enabled(vote.label);
+    await button(vote.label).click();
+    await page.getByText('Player 1 wins.', { exact: true }).waitFor();
+    assert((await page.locator('.comparison blockquote').innerText()).includes(eligible[0].text), 'First audition identity changed.');
+    const comparison = await page.locator('.comparison').innerText();
+    await page.screenshot({ path: `D:/SWE_DEV_NEW/Fish-Audio-Hackathon/docs/evidence/browser-${scene.id}-reveal.png`, fullPage: true });
+    results.push({ sceneId: scene.id, shield: scene.protectedLineId, twoSavedAuditions: true, actualPrivatePlayback: true, blindListener: true, fullSceneCompleted: true, chosenAction: vote.id, firstCandidateRevealed: true, comparison });
+    await button('Back to scenes / swap roles').click();
+  }
+  await page.screenshot({ path: 'D:/SWE_DEV_NEW/Fish-Audio-Hackathon/docs/evidence/browser-three-scenes.png', fullPage: true });
+  return { kind: 'actual-built-additional-scene-browser-check', createdAt: new Date().toISOString(), browser: await page.context().browser().version(), liveEnabled: health.liveEnabled, keyConfigured: health.keyConfigured, readySceneIds: health.readySceneIds, results };
+}

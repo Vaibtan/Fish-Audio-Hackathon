@@ -1,0 +1,12 @@
+{
+  "reviewer": "Host (user)",
+  "confirmedAt": "2026-10-24T09:43:56.5341605+00:00",
+  "source": "Full-scene comparison playback followed by explicit user feedback",
+  "statement": "One alteration gets lost or sounds wrong; it was line 1 - Badly hidden delight",
+  "takeId": "4dfd26c5-99a1-4be4-ae8b-ed1f89ba9cd6",
+  "audioHash": "a06988ce71aa15c684fe51c6b3265cf46c459d9a00e32613fea52c56a2908fc9",
+  "renderSignature": "386c30f9f60677c9c8e040c17fd2153b957269a6648e1f20235193d34ce7e4df",
+  "decision": "rejected",
+  "supersedes": "Line-1 alternate approval in 2026-10-24-cake-remaining.json",
+  "detail": "No more specific cause supplied. Existing take excluded; one same-card reroll generated for human review."
+}

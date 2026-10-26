@@ -1,0 +1,20 @@
+{
+  "reviewer": "Host (user)",
+  "confirmedAt": "2026-10-24T10:06:29.4583836+00:00",
+  "source": "Explicit user confirmation after original and Thin confidence local playback for Exhibition line 3",
+  "statement": "Approve both clips",
+  "takes": [
+    {
+      "takeId": "c5a570d2-6443-4f67-8822-7b36ef1b89b4",
+      "audioHash": "a075760d5a11e37ae3182b19fbac5aaf977993776c00dc04dd46feadc6cbb23e",
+      "renderSignature": "877614c2d9f039e9db0bcc99722ebdbd5ad01805af9fc7163d2750724fadb83e",
+      "decision": "approved"
+    },
+    {
+      "takeId": "e4fb5a77-86c0-4841-a4b2-9603c1a7fc4b",
+      "audioHash": "a3c8a870c301a8370ce4f01fc9817deeae8a8d4e929297a58b1e2424e34abc86",
+      "renderSignature": "3365a018e6f18c61240c7a59178215255fec11c7cb0065c19c290b694641f5d6",
+      "decision": "approved"
+    }
+  ]
+}

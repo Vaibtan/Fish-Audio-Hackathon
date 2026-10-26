@@ -1,0 +1,26 @@
+{
+  "reviewer": "Host (user)",
+  "confirmedAt": "2026-10-24T09:38:01.8031685+00:00",
+  "source": "Explicit user confirmation after sequential local ffplay playback of baseline line 1, hidden_delight line 1, then baseline line 2",
+  "statement": "Approve all three clips",
+  "takes": [
+    {
+      "takeId": "adb3d863-d625-4597-b5cb-3c86bf0ffe03",
+      "audioHash": "c7c8a9db7f83d22afa4b9ea6c635fac046bae9c521f6c2175bb2fbde51e132f2",
+      "renderSignature": "324ed1363ed7d3ad40912a7dc9ff692faa19165e39a9cb626014c40bd1180a4d",
+      "decision": "approved"
+    },
+    {
+      "takeId": "4dfd26c5-99a1-4be4-ae8b-ed1f89ba9cd6",
+      "audioHash": "a06988ce71aa15c684fe51c6b3265cf46c459d9a00e32613fea52c56a2908fc9",
+      "renderSignature": "386c30f9f60677c9c8e040c17fd2153b957269a6648e1f20235193d34ce7e4df",
+      "decision": "approved"
+    },
+    {
+      "takeId": "6ec49af2-3342-4693-8152-85fafebbbe50",
+      "audioHash": "a9dd4a2d3aa33b11e381a1d1445a77ce43ceabf06c0786b177c40dab3fa747d3",
+      "renderSignature": "a024e4171ce9d09ace527cfa83b663085acb9801cc1a8ddd328e5d58439d5a74",
+      "decision": "approved"
+    }
+  ]
+}

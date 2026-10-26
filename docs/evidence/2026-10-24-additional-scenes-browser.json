@@ -1,0 +1,36 @@
+{
+  "kind": "actual-built-additional-scene-browser-check",
+  "createdAt": "2026-10-24T10:12:22.831Z",
+  "browser": "155.0.8059.85",
+  "liveEnabled": false,
+  "keyConfigured": false,
+  "readySceneIds": [
+    "cake_invitation",
+    "normal_exhibition",
+    "galactic_gala"
+  ],
+  "results": [
+    {
+      "sceneId": "normal_exhibition",
+      "shield": "line_1",
+      "twoSavedAuditions": true,
+      "actualPrivatePlayback": true,
+      "blindListener": true,
+      "fullSceneCompleted": true,
+      "chosenAction": "request_rehearsal",
+      "firstCandidateRevealed": true,
+      "comparison": "“Everything is in place.”\n\nBadly hidden delight / Saved Fish performance\n\nHear original lineHear altered line"
+    },
+    {
+      "sceneId": "galactic_gala",
+      "shield": "line_3",
+      "twoSavedAuditions": true,
+      "actualPrivatePlayback": true,
+      "blindListener": true,
+      "fullSceneCompleted": true,
+      "chosenAction": "book_host",
+      "firstCandidateRevealed": true,
+      "comparison": "“It's lovely to be here.”\n\nQuiet conviction / Saved Fish performance\n\nHear original lineHear altered line"
+    }
+  ]
+}

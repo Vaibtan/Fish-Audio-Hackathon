@@ -1,0 +1,26 @@
+{
+  "id": "1ba46bc9-ac30-4d82-bee2-eb5fbdd29b65",
+  "sceneId": "galactic_gala",
+  "sceneRevision": 1,
+  "lineId": "line_2",
+  "directionId": "baseline",
+  "directionRevision": 1,
+  "voice": "c70cfb98867a4bfb9ae20d2401257b92",
+  "requestedModel": "drama-3",
+  "renderSignature": "82eaa941e34ecbd4e6f1f853012a15e75405471183a9d1e756c040af27866081",
+  "audioUrl": "/api/audio/1ba46bc9-ac30-4d82-bee2-eb5fbdd29b65",
+  "origin": "fish-api",
+  "review": "approved",
+  "audioHash": "fae64148faf7df08a4256c9d0c1d9c20e46adc97587e9660f9743a92dd1e9a2e",
+  "createdAt": "2026-10-24T10:07:01.404Z",
+  "request": {
+    "url": "https://api.fish.audio/v1/tts",
+    "model": "drama-3",
+    "body": {
+      "text": "[Formal and slightly distant, with measured pacing and restrained warmth. Make the anticipation mildly difficult to read. Avoid an overt villain voice, a conspicuous whisper, an obvious laugh or added words.] I have something planned for everyone.",
+      "reference_id": "c70cfb98867a4bfb9ae20d2401257b92",
+      "format": "mp3",
+      "latency": "normal"
+    }
+  }
+}

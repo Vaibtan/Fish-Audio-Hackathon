@@ -1,0 +1,38 @@
+{
+  "reviewer": "Host (user)",
+  "confirmedAt": "2026-10-24T10:07:32.4868296+00:00",
+  "source": "Explicit user confirmation after three full Exhibition versions with 150 ms line gaps: original, line 2 Badly hidden delight, line 3 Thin confidence",
+  "statement": "Approve all clips and both assembled alterations",
+  "takes": [
+    {
+      "takeId": "98e8d8bc-37fd-44e3-b707-28cc742a268a",
+      "audioHash": "67aec2724e925fbe18cb70c6c5b7b631b1b628cdff798b6611f76dd1227a65e7",
+      "renderSignature": "f8f1d3c75b3d3bc6382e97b6ac2ae19dcdd0e3d51a577bcdaf285152d436290a",
+      "decision": "approved"
+    },
+    {
+      "takeId": "51fec28f-9c7e-46f9-9b70-9c476d1a5392",
+      "audioHash": "d100f7499c6805ef2a2039c9ae1c935b0d9ee523850f1daf76497f2c72618e7b",
+      "renderSignature": "34ac818d07bb6ff4c7529964e2c8a902a75b748346da3065f366a05144e44884",
+      "decision": "approved"
+    },
+    {
+      "takeId": "d884d2cb-1616-40df-ad49-f309c65aa978",
+      "audioHash": "52b81964701cea1c1d02d884a0089d0ffd15a4660085f8d4288ec318d2902e94",
+      "renderSignature": "7a33db91df42fcede1bff7c5d2e74458fed28693c934cfef2380fea558adae2c",
+      "decision": "approved"
+    },
+    {
+      "takeId": "c5a570d2-6443-4f67-8822-7b36ef1b89b4",
+      "audioHash": "a075760d5a11e37ae3182b19fbac5aaf977993776c00dc04dd46feadc6cbb23e",
+      "renderSignature": "877614c2d9f039e9db0bcc99722ebdbd5ad01805af9fc7163d2750724fadb83e",
+      "decision": "approved"
+    },
+    {
+      "takeId": "e4fb5a77-86c0-4841-a4b2-9603c1a7fc4b",
+      "audioHash": "a3c8a870c301a8370ce4f01fc9817deeae8a8d4e929297a58b1e2424e34abc86",
+      "renderSignature": "3365a018e6f18c61240c7a59178215255fec11c7cb0065c19c290b694641f5d6",
+      "decision": "approved"
+    }
+  ]
+}

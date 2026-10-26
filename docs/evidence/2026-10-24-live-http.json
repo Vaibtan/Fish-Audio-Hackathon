@@ -1,0 +1,34 @@
+{
+  "status": "completed",
+  "roundId": "df69fa19-dd61-4c82-8abc-7d14e539f9f4",
+  "requestId": "1de764d2-a13b-41ea-a163-a49e3a905251",
+  "input": {
+    "lineId": "line_1",
+    "mode": "live",
+    "directionId": "hidden_delight"
+  },
+  "note": "One explicitly authorized live HTTP audition; no automatic retry; generated take remains unreviewed",
+  "response": {
+    "roundId": "df69fa19-dd61-4c82-8abc-7d14e539f9f4",
+    "requestId": "1de764d2-a13b-41ea-a163-a49e3a905251",
+    "slotId": "1de764d2-a13b-41ea-a163-a49e3a905251",
+    "slotIndex": 1,
+    "slotConsumed": true,
+    "status": "ready",
+    "take": {
+      "id": "68fa5a09-2a3b-4d6e-a5be-7d0def50889a",
+      "sceneId": "cake_invitation",
+      "sceneRevision": 1,
+      "lineId": "line_1",
+      "directionId": "hidden_delight",
+      "directionRevision": 1,
+      "voice": "c70cfb98867a4bfb9ae20d2401257b92",
+      "requestedModel": "drama-3",
+      "renderSignature": "386c30f9f60677c9c8e040c17fd2153b957269a6648e1f20235193d34ce7e4df",
+      "audioUrl": "/api/audio/68fa5a09-2a3b-4d6e-a5be-7d0def50889a",
+      "origin": "fish-api",
+      "review": "unreviewed"
+    },
+    "source": "generated-this-round"
+  }
+}

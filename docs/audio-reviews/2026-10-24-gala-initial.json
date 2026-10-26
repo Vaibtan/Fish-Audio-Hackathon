@@ -1,0 +1,20 @@
+{
+  "reviewer": "Host (user)",
+  "confirmedAt": "2026-10-24T10:09:38.0816465+00:00",
+  "source": "Explicit user confirmation after original and replacement Quiet conviction for Galactic Gala line 2",
+  "statement": "Approve both clips",
+  "takes": [
+    {
+      "takeId": "1ba46bc9-ac30-4d82-bee2-eb5fbdd29b65",
+      "audioHash": "fae64148faf7df08a4256c9d0c1d9c20e46adc97587e9660f9743a92dd1e9a2e",
+      "renderSignature": "82eaa941e34ecbd4e6f1f853012a15e75405471183a9d1e756c040af27866081",
+      "decision": "approved"
+    },
+    {
+      "takeId": "77583a1a-908c-4407-bd99-bcd829d04f50",
+      "audioHash": "5031af0fa7918fc8266f209c2bb05634c6aac58ac81a85d2df542321ad121a6a",
+      "renderSignature": "79cd77c523ecb5d3c87a2d81f59e185af9e9be811d84cb270fa8b891596770d1",
+      "decision": "approved"
+    }
+  ]
+}

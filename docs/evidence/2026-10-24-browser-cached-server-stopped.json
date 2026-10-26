@@ -1,0 +1,19 @@
+{
+  "kind": "actual-built-cached-round-server-stopped",
+  "createdAt": "2026-10-24T10:16:39.658Z",
+  "serverHealthUnreachable": true,
+  "reveal": "The reveal\n\nThe Extremely Normal Exhibition\n\nPlayer 1 wins.\n\nThat’s how it landed.\n\nThe listener chose Request a rehearsal.\n\nThe house wanted\nOpen to guests\n\nPlayer 1 wanted\nRequest a rehearsal\n\n“Everything is in place.”\n\nBadly hidden delight / Saved Fish performance\n\nHear original lineHear altered line\n\nAn action match earns a point. It does not prove a changed mind.\n\nPlayer 12\nBack to scenes / swap roles\n\nPrefer a fresh qualified scene for a role swap.",
+  "sceneId": "normal_exhibition",
+  "roundId": "443cecbd-ce8d-45fe-9999-77785e1264f3",
+  "stoppedIsolatedPid": 29928,
+  "base": "http://127.0.0.1:3811",
+  "actualInitialPlaybackCompleted": true,
+  "scoringAndReveal": true,
+  "httpRequestsDuringCompletion": [],
+  "blobRequestsDuringCompletion": [
+    "blob:http://127.0.0.1:3811/39f1c18c-804e-402d-b9ae-c43ab2146c1f",
+    "blob:http://127.0.0.1:3811/9b8c608a-ead3-4d83-a9f6-315341b4949d",
+    "blob:http://127.0.0.1:3811/627cb454-cb0a-41e9-bb7c-e5b7b0b8bb62"
+  ],
+  "verificationNote": "Initial helper completed playback/vote but incorrectly counted blob resource events as network requests. Inspected full connector network log: after this round's takes POST (104), only three blob GETs (105-107), no HTTP(S) request. Follow-up confirmed server unreachable and expected reveal. Main server at port 3001 untouched."
+}

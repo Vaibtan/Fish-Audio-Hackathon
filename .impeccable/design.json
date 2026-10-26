@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-24T18:11:37.913Z",
+  "title": "Design System: Dub Saboteur",
+  "extensions": {
+    "motion": [
+      {
+        "name": "control-feedback",
+        "value": "140ms ease",
+        "purpose": "Button fill, border, and text color transitions."
+      },
+      {
+        "name": "reveal-stamp",
+        "value": "420ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "The single result marker landing in the reveal."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1050px"
+      },
+      {
+        "name": "stacked-layout",
+        "value": "760px"
+      },
+      {
+        "name": "small-phone",
+        "value": "480px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main action for the next step.",
+      "html": "<button class=\"ds-button-primary\" type=\"button\">Activate sound</button>",
+      "css": ".ds-button-primary{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:46px;padding:11px 18px;border:1px solid var(--accent);border-radius:9px;background:var(--accent);color:var(--ink);font:700 1rem/1.3 Barlow,'Segoe UI',sans-serif;cursor:pointer;transition:background 140ms ease,border-color 140ms ease,color 140ms ease}.ds-button-primary:hover:not(:disabled){background:var(--accent-hover);border-color:var(--accent-hover)}.ds-button-primary:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-button-primary:active:not(:disabled){transform:translateY(1px)}.ds-button-primary:disabled{background:#4b3f60;border-color:#4b3f60;color:#bcb0cf;cursor:not-allowed}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined action for optional or supporting steps.",
+      "html": "<button class=\"ds-button-secondary\" type=\"button\">Listen privately to audition 1</button>",
+      "css": ".ds-button-secondary{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:46px;padding:11px 18px;border:1px solid var(--control-border);border-radius:9px;background:transparent;color:var(--cream);font:600 1rem/1.3 Barlow,'Segoe UI',sans-serif;cursor:pointer;transition:background 140ms ease,border-color 140ms ease,color 140ms ease}.ds-button-secondary:hover:not(:disabled){background:var(--selected);border-color:var(--accent)}.ds-button-secondary:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-button-secondary:active:not(:disabled){transform:translateY(1px)}.ds-button-secondary:disabled{background:#292532;border-color:#494151;color:#aba3b7;cursor:not-allowed}"
+    },
+    {
+      "name": "Scene Card",
+      "kind": "card",
+      "refersTo": "scene-card",
+      "description": "Cream scene summary with one preparation state and one choice.",
+      "html": "<article class=\"ds-scene-card\"><h3>Tonight's scenes</h3><p>Scene context</p><div class=\"ds-scene-footer\"><span class=\"ds-status-tag\">Prepared</span><button class=\"ds-scene-button\" type=\"button\">Choose this scene</button></div></article>",
+      "css": ".ds-scene-card{background:var(--cream);color:var(--ink);color-scheme:light;border-radius:14px;margin-bottom:16px;padding:24px 26px 18px}.ds-scene-card h3{max-width:25ch;font:700 1.65rem/1.08 Barlow,'Segoe UI',sans-serif;letter-spacing:-.015em}.ds-scene-card p{margin:12px 0 18px;color:var(--paper-muted);font:400 .96rem/1.5 Barlow,'Segoe UI',sans-serif}.ds-scene-footer{display:flex;justify-content:space-between;align-items:center;gap:10px;border-top:1px solid #d8cfbd;padding-top:13px}.ds-status-tag{display:inline-flex;align-items:center;gap:5px;color:var(--paper-muted);font:600 .78rem/1.5 Barlow,'Segoe UI',sans-serif;white-space:nowrap}.ds-scene-button{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:9px 13px;border:1px solid var(--ink);border-radius:9px;background:var(--ink);color:var(--cream);font:600 .9rem/1.3 Barlow,'Segoe UI',sans-serif;cursor:pointer;transition:background 140ms ease,border-color 140ms ease}.ds-scene-button:hover:not(:disabled){background:#49365e;border-color:#49365e}.ds-scene-button:focus-visible{outline:3px solid #63428b;outline-offset:5px}.ds-scene-button:active:not(:disabled){transform:translateY(1px)}.ds-scene-button:disabled{background:#e6decd;border-color:#d8cfbd;color:#736878;cursor:not-allowed}"
+    },
+    {
+      "name": "Audition Card",
+      "kind": "card",
+      "refersTo": "audition-card",
+      "description": "Dark performance slot with an explicit selected state.",
+      "html": "<article class=\"ds-audition-card ds-is-selected\"><h3>Audition 1</h3><p class=\"ds-card-label\">Saved performance</p><blockquote>Scene line</blockquote></article>",
+      "css": ".ds-audition-card{background:var(--panel);color:var(--cream);border:1px solid var(--line);border-radius:14px;margin-bottom:16px;padding:20px}.ds-audition-card h3{font:700 1.08rem/1.25 Barlow,'Segoe UI',sans-serif}.ds-audition-card .ds-card-label{margin:20px 0 8px;color:var(--accent);font:600 .88rem/1.5 Barlow,'Segoe UI',sans-serif}.ds-audition-card blockquote{margin:0 0 18px;font:400 1.25rem/1.5 Barlow,'Segoe UI',sans-serif}.ds-audition-card.ds-is-selected{background:var(--selected);border-color:var(--accent)}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "text-field",
+      "description": "Dark player-name field with a clear keyboard focus ring.",
+      "html": "<label class=\"ds-field\">Director<input type=\"text\" value=\"Player 1\" autocomplete=\"off\"></label>",
+      "css": ".ds-field{display:block;color:var(--cream);font:600 .88rem/1.5 Barlow,'Segoe UI',sans-serif}.ds-field input{display:block;width:100%;margin-top:7px;padding:11px 13px;border:1px solid var(--control-border);border-radius:8px;background:var(--ink);color:var(--cream);caret-color:var(--accent);font:inherit}.ds-field input:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-field input[aria-invalid=true]{border-color:var(--accent)}"
+    },
+    {
+      "name": "Listener Action",
+      "kind": "button",
+      "refersTo": "listener-action",
+      "description": "Large response choice after the listener finishes playback.",
+      "html": "<button class=\"ds-listener-action\" type=\"button\">Choose a response</button>",
+      "css": ".ds-listener-action{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;min-height:72px;padding:20px 22px;border:1px solid var(--accent);border-radius:9px;background:var(--accent);color:var(--ink);font:600 1.2rem/1.3 Barlow,'Segoe UI',sans-serif;text-align:left;cursor:pointer;transition:background 140ms ease,border-color 140ms ease,color 140ms ease}.ds-listener-action:hover:not(:disabled){background:var(--accent-hover);border-color:var(--accent-hover)}.ds-listener-action:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-listener-action:active:not(:disabled){transform:translateY(1px)}.ds-listener-action:disabled{background:transparent}"
+    },
+    {
+      "name": "Status Tag",
+      "kind": "chip",
+      "refersTo": "status-tag",
+      "description": "Compact preparation or audition status beside its card.",
+      "html": "<span class=\"ds-status-tag\">Prepared</span>",
+      "css": ".ds-status-tag{display:inline-flex;align-items:center;gap:5px;color:var(--muted);font:600 .78rem/1.5 Barlow,'Segoe UI',sans-serif;white-space:nowrap}.ds-status-tag .ds-icon{width:15px;height:15px;flex-shrink:0}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Ink-Purple Cabinet",
+  "overview": "Dub Saboteur is a playful arcade cabinet for two people passing one device. Ink-purple framing, warm cream scene cards and transcript, and flat lavender controls make game state legible without turning the full screen neon. Bungee gives the premise a marquee; Barlow keeps setup, directions, and reading straightforward.\n\nThe journey moves from a scene lobby to a private directing desk and an independent listener room, then returns to a clear reveal. Selection combines a filled state, a border, and a check. The listener receives neutral scene context, transcript, playback, and choices without the director's private objective or take details.",
+    "keyCharacteristics": [
+      "Ink-purple framing around warm cream reading and scene surfaces.",
+      "Lavender marks primary actions, selected choices, sound readiness, and the reveal.",
+      "Bungee leads; Barlow carries controls and scene reading.",
+      "Flat, tactile controls use crisp borders and brief feedback.",
+      "The listener view stays neutral and private-round details stay hidden."
+    ],
+    "rules": [
+      {
+        "name": "The Lavender Action Rule",
+        "body": "Keep lavender for actions, selection, sound readiness, and the reveal; let ink-purple and warm cream carry the large surfaces.",
+        "section": "colors"
+      },
+      {
+        "name": "The Cabinet Type Rule",
+        "body": "Use Bungee for the wordmark and headlines; keep interface instructions and scene reading in Barlow.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-by-Default Rule",
+        "body": "Separate surfaces with color and borders. Keep controls tactile through their pressed state, not through shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the selected state clear with fill, border, and a check or label.",
+      "Do use the locally bundled Bungee and Barlow faces for their established roles.",
+      "Do keep the listener surface neutral and free of private-round details."
+    ],
+    "donts": [
+      "Don't add neon glows, fake waveforms, or simulated audio data.",
+      "Don't add shadows to the flat cabinet surfaces.",
+      "Don't move the director's objective, protected-line cue, direction, or take provenance into the listener room."
+    ]
+  }
+}

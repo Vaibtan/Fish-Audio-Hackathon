@@ -1,0 +1,26 @@
+{
+  "id": "51411079-6b7c-4ef8-a88d-1cdf22d8effd",
+  "sceneId": "galactic_gala",
+  "sceneRevision": 1,
+  "lineId": "line_1",
+  "directionId": "baseline",
+  "directionRevision": 1,
+  "voice": "c70cfb98867a4bfb9ae20d2401257b92",
+  "requestedModel": "drama-3",
+  "renderSignature": "5f1b4dfe5ef71e4f16c8b964cedc8f609d24ffa52940d6b8b938cfe659e63e69",
+  "audioUrl": "/api/audio/51411079-6b7c-4ef8-a88d-1cdf22d8effd",
+  "origin": "fish-api",
+  "review": "approved",
+  "audioHash": "85363cae1e9b3e6ddbb9452417438192a27d7a4ff412f7749e17ef5c599618c2",
+  "createdAt": "2026-10-24T10:09:42.204Z",
+  "request": {
+    "url": "https://api.fish.audio/v1/tts",
+    "model": "drama-3",
+    "body": {
+      "text": "[Formal and slightly distant, with measured pacing and restrained warmth. Make the anticipation mildly difficult to read. Avoid an overt villain voice, a conspicuous whisper, an obvious laugh or added words.] It's lovely to be here.",
+      "reference_id": "c70cfb98867a4bfb9ae20d2401257b92",
+      "format": "mp3",
+      "latency": "normal"
+    }
+  }
+}

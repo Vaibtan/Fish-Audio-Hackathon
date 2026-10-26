@@ -1,0 +1,37 @@
+{
+  "name": "dub-saboteur",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^22.12.0 || ^24.0.0"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"node --watch --env-file-if-exists=.env --import tsx server/index.ts\" \"vite --host 127.0.0.1 --port 5173 --strictPort\"",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build": "vite build && tsup server/index.ts --format esm --platform node --target node22 --out-dir dist-server --no-splitting --external effect --external @effect/platform-node",
+    "start": "node --env-file-if-exists=.env dist-server/index.js",
+    "audio": "tsx --env-file-if-exists=.env scripts/prepare-audio.ts",
+    "verify:built": "node scripts/verify-built.mjs"
+  },
+  "dependencies": {
+    "@effect/platform-node": "4.0.6",
+    "effect": "4.0.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "overrides": { "esbuild": "0.28.2" },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "concurrently": "^9.2.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.0",
+    "vitest": "^5.0.5"
+  }
+}

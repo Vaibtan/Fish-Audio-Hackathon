@@ -1,0 +1,26 @@
+{
+  "id": "adb3d863-d625-4597-b5cb-3c86bf0ffe03",
+  "sceneId": "cake_invitation",
+  "sceneRevision": 1,
+  "lineId": "line_1",
+  "directionId": "baseline",
+  "directionRevision": 1,
+  "voice": "c70cfb98867a4bfb9ae20d2401257b92",
+  "requestedModel": "drama-3",
+  "renderSignature": "324ed1363ed7d3ad40912a7dc9ff692faa19165e39a9cb626014c40bd1180a4d",
+  "audioUrl": "/api/audio/adb3d863-d625-4597-b5cb-3c86bf0ffe03",
+  "origin": "fish-api",
+  "review": "approved",
+  "audioHash": "c7c8a9db7f83d22afa4b9ea6c635fac046bae9c521f6c2175bb2fbde51e132f2",
+  "createdAt": "2026-10-24T09:35:58.910Z",
+  "request": {
+    "url": "https://api.fish.audio/v1/tts",
+    "model": "drama-3",
+    "body": {
+      "text": "[Warm, naturally proud of your baking and genuinely welcoming. Address a guest casually. Keep the words exact and the delivery understated.] That is a very special cake.",
+      "reference_id": "c70cfb98867a4bfb9ae20d2401257b92",
+      "format": "mp3",
+      "latency": "normal"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id":"cake_invitation","revision":1,"title":"The Cake Invitation",
+    "context":"You are at an excessively formal cake tasting. The host offers you the first slice. Decide whether to accept or politely decline.",
+    "lines":[{"id":"line_1","text":"That is a very special cake."},{"id":"line_2","text":"I made it just for you."},{"id":"line_3","text":"Go on. Have a bite."}],
+    "actions":[{"id":"accept_cake","label":"Take the first bite"},{"id":"decline_cake","label":"Politely decline"}],
+    "defenderGoal":"accept_cake","protectedLineId":"line_2",
+    "baselineDirection":"Warm, naturally proud of your baking and genuinely welcoming. Address a guest casually. Keep the words exact and the delivery understated."
+  },
+  {
+    "id":"normal_exhibition","revision":1,"title":"The Extremely Normal Exhibition",
+    "context":"You manage a tiny museum. Its team has prepared tonight's new display and sent this announcement. Decide whether to open it to guests or request a rehearsal first.",
+    "lines":[{"id":"line_1","text":"We've made a few changes."},{"id":"line_2","text":"Everything is in place."},{"id":"line_3","text":"We're ready when you are."}],
+    "actions":[{"id":"open_exhibition","label":"Open to guests"},{"id":"request_rehearsal","label":"Request a rehearsal"}],
+    "defenderGoal":"open_exhibition","protectedLineId":"line_1",
+    "baselineDirection":"A competent museum colleague giving an ordinary update. Natural conversational pacing, restrained warmth, settled and ready. Avoid exaggerated cheerfulness, ominous effects and added words."
+  },
+  {
+    "id":"galactic_gala","revision":1,"title":"The Galactic Gala",
+    "context":"You are booking a host for the Galactic Gala, an absurdly formal awards night. This is an applicant's short audition. Decide whether to book them or keep looking.",
+    "lines":[{"id":"line_1","text":"It's lovely to be here."},{"id":"line_2","text":"I have something planned for everyone."},{"id":"line_3","text":"This should be a memorable evening."}],
+    "actions":[{"id":"book_host","label":"Book the host"},{"id":"keep_looking","label":"Keep looking"}],
+    "defenderGoal":"keep_looking","protectedLineId":"line_3",
+    "baselineDirection":"Formal and slightly distant, with measured pacing and restrained warmth. Make the anticipation mildly difficult to read. Avoid an overt villain voice, a conspicuous whisper, an obvious laugh or added words."
+  }
+]
